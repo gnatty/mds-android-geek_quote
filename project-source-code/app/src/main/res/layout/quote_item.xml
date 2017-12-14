@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_quote"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/iv_quote_avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/tv_quote_str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/iv_quote_avatar"
+        android:layout_alignTop="@+id/iv_quote_avatar"
+        tools:text="quote value" />
+
+    <TextView
+        android:id="@+id/tv_quote_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_alignLeft="@+id/tv_quote_str"
+        android:layout_below="@+id/tv_quote_str"
+        tools:text="quote rating" />
+
+    <TextView
+        android:id="@+id/tv_quote_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_quote_rate"
+        android:layout_below="@+id/tv_quote_rate"
+        tools:text="quote rating" />
+
+</RelativeLayout>

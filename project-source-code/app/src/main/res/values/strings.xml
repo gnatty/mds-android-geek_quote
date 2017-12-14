@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Geek Quote</string>
+
+    <string-array name="quoteDefaultStorage">
+        <item>msg 1</item>
+        <item>msg 2</item>
+        <item>msg 3</item>
+        <item>msg 4</item>
+        <item>msg 5</item>
+        <item>msg 1</item>
+        <item>msg 2</item>
+        <item>msg 3</item>
+        <item>msg 4</item>
+        <item>msg 5</item>
+        <item>msg 1</item>
+        <item>msg 2</item>
+        <item>msg 3</item>
+        <item>msg 4</item>
+        <item>msg 5</item>
+        <item>msg 1</item>
+        <item>msg 2</item>
+        <item>msg 3</item>
+        <item>msg 4</item>
+        <item>msg 5</item>
+    </string-array>
+
+    <string name="quote_add_hint">Your quote</string>
+    <string name="quote_add_submit">Submit</string>
+
+</resources>
